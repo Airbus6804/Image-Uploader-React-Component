@@ -1,0 +1,31 @@
+{
+  "name": "airbus6804-react-image-uploader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "sideEffects": false,
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "pack": "npm pack && mv airbus6804-react-image-uploader-0.0.1.tgz ../t2 && cd ../t2 && tar -xvzf airbus6804-react-image-uploader-0.0.1.tgz"
+  },
+  "dependencies": {
+    "airbus6804-image-uploader": "^0.0.2",
+    "react-dropzone": "^14.2.3"
+  },
+  "keywords": [],
+  "author": "airbus6804",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.77",
+    "@types/react-dom": "^18.2.25",
+    "typescript": "^5.4.3"
+  }
+}
