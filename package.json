@@ -20,7 +20,7 @@
   "author": "airbus6804",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": ">= 16.8 || 18.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
