@@ -1,4 +1,4 @@
 import { ImageUploader } from "airbus6804-image-uploader";
-import ImageUploaderComponent from "./components/ImageUploader";
+import ImageUploaderComponent, {generateAccept, ImageData} from "./components/ImageUploader";
 
-export {ImageUploader, ImageUploaderComponent}
+export {ImageUploader, ImageUploaderComponent, generateAccept, ImageData}
